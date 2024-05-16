@@ -1,0 +1,19 @@
+{
+  "name": "otaserver",
+  "version": "1.0.0",
+  "description": "OTA Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "OTA",
+    "esp8266",
+    "Server"
+  ],
+  "author": "DK",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.18.2"
+  }
+}
