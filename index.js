@@ -82,6 +82,8 @@ app.get("/jdownloader", (req, res) => {
 	res.status(200);
 });
 
+app.use(express.static("public"));
+
 app.all("*", (req, res) => {
 	log(req.url);
 	res.status(404);
